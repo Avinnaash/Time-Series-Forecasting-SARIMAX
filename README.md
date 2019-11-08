@@ -23,3 +23,5 @@ m: The number of time steps for a single seasonal period.
 Together, the notation for an SARIMA model is specified as:
 
 SARIMA(p,d,q)(P,D,Q)m
+
+Due to the nature of my dataset which i was handling, the predictions and forecast plots dont look very promising but the RMS obtained happened to be satisfactory. Also, since this dataset was real world sales data, upon comparison with the forecasted month's sales and actual sales, the prediction was quite accurate.
